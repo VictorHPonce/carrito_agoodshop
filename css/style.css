@@ -1,0 +1,58 @@
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.border-top {
+  border-top: 2px solid rgb(56, 55, 55);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-table {
+  margin-top: 50px;
+  width: 70%;
+}
+
+#carrito-container {
+  width: 30%;
+  height: auto;
+  margin: 0;
+  text-align: center;
+  background-color: aliceblue;
+  margin-top: 10%;
+  margin-left: 30px;
+}
+
+.my-table {
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 20px;
+  border-bottom: 3px solid gainsboro;
+}
+
+td{
+  padding: 20px;
+  border-bottom: 2px solid gainsboro;
+}
+
+.inputNumber {
+  width: 30px;
+  text-align: center;
+  padding: 3px;
+  border: 1px solid #f5eeee;
+}
